@@ -1,0 +1,30 @@
+html, body {
+    background-color: #3d3b30;
+    margin: 10px;
+}
+
+.container {
+    background-color: #e7e247;
+    border: 10px solid orange;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container > div {
+    margin: 3px;
+    border-radius: 15px;
+}
+
+.container > div > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.container > .small {
+    flex: 1 1 200px;
+}
+
+.container > .big {
+    flex: 1 1 400px;
+}
